@@ -308,3 +308,44 @@ footer {
     gap: 20px;
   }
 }
+/* FINAL DESKTOP-ONLY REFINEMENTS */
+@media (min-width: 701px) {
+
+  /* 1. Slightly larger SAMINA ULANI + navigation */
+  .wordmark {
+    font-size: 14px;
+  }
+
+  nav {
+    font-size: 13px;
+  }
+
+  /* 2. Slightly larger "Contemporary painter · New York" */
+  .intro .eyebrow {
+    font-size: 12px;
+  }
+
+  /* 3. Slightly smaller "Myth, power, identity." */
+  .intro h1 {
+    font-size: clamp(46px, 7vw, 110px);
+  }
+
+  /* 4. Slightly smaller A War on Ambiguity */
+  .work-hero {
+    grid-column: 1 / 12;
+  }
+
+  /* 5. Slightly smaller Resistencia */
+  .work-resistencia {
+    grid-column: 1 / 7;
+  }
+
+  /* 6. Slightly larger biography photograph */
+  .about {
+    grid-template-columns: 470px 1fr;
+  }
+
+  .about-image {
+    max-width: 470px;
+  }
+}
