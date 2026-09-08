@@ -349,3 +349,10 @@ footer {
     max-width: 470px;
   }
 }
+/* MOBILE HEADER SPACING */
+@media (max-width: 700px) {
+  .intro {
+    min-height: 42vh;
+    padding-top: 75px;
+  }
+}
