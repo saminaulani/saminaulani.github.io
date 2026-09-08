@@ -146,16 +146,14 @@ figcaption span:first-child { color: var(--text); }
 }
 
 .about-image {
-  width: min(100%, 420px);
-  justify-self: center;
+  width: min(100%, 520px);
+  justify-self: start;
 }
 
 .artist-portrait {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: 35% center;
+  height: auto;
 }
 
 .about-copy { max-width: 620px; }
