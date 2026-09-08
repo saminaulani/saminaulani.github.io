@@ -275,3 +275,25 @@ footer {
     gap: 20px;
   }
 }
+
+/* Final works pairing: Angel 2 + A Domesticated Dream */
+.work-tall {
+  grid-column: 1 / 7;
+  margin-top: -1vw;
+}
+
+.work-small {
+  grid-column: 8 / 13;
+  margin-top: 8vw;
+}
+
+/* Bring About section closer to the final pair */
+.about {
+  margin-top: 14vw;
+}
+
+@media (max-width: 700px) {
+  .about {
+    margin-top: 10vw;
+  }
+}
