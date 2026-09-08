@@ -85,7 +85,7 @@ nav a:hover, .contact a:hover { opacity: .55; }
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 5vw;
-  row-gap: 16vw;
+  row-gap: 13vw;
   align-items: start;
 }
 
@@ -115,13 +115,13 @@ figcaption span:first-child { color: var(--text); }
 }
 
 .work-small {
-  grid-column: 1 / 6;
-  margin-top: 2vw;
+  grid-column: 8 / 13;
+  margin-top: 5vw;
 }
 
 .work-tall {
-  grid-column: 7 / 13;
-  margin-top: -1vw;
+  grid-column: 1 / 7;
+  margin-top: 0;
 }
 
 .work-wide {
@@ -136,7 +136,7 @@ figcaption span:first-child { color: var(--text); }
 
 .about {
   width: 86vw;
-  margin: 28vw auto 0;
+  margin: 9vw auto 0;
   padding-top: 14vw;
   border-top: 1px solid var(--line);
   display: grid;
@@ -252,8 +252,8 @@ footer {
 
   .about {
     width: calc(100% - 36px);
-    margin-top: 25vw;
-    padding-top: 18vw;
+    margin-top: 10vw;
+    padding-top: 14vw;
     display: block;
   }
 
@@ -276,24 +276,3 @@ footer {
   }
 }
 
-/* Final works pairing: Angel 2 + A Domesticated Dream */
-.work-tall {
-  grid-column: 1 / 7;
-  margin-top: -1vw;
-}
-
-.work-small {
-  grid-column: 8 / 13;
-  margin-top: 8vw;
-}
-
-/* Bring About section closer to the final pair */
-.about {
-  margin-top: 14vw;
-}
-
-@media (max-width: 700px) {
-  .about {
-    margin-top: 10vw;
-  }
-}
