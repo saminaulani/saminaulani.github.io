@@ -55,8 +55,8 @@ nav a, .contact a { transition: opacity .2s ease; }
 nav a:hover, .contact a:hover { opacity: .55; }
 
 .intro {
-  min-height: 76vh;
-  padding: 180px 7vw 100px;
+  min-height: 56vh;
+  padding: 105px 7vw 70px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -130,8 +130,8 @@ figcaption span:first-child { color: var(--text); }
 }
 
 .work-resistencia {
-  grid-column: 8 / 12;
-  margin-top: -5vw;
+  grid-column: 1 / 8;
+  margin-top: 2vw;
 }
 
 .about {
@@ -215,8 +215,8 @@ footer {
   nav { gap: 13px; font-size: 9px; }
 
   .intro {
-    min-height: 65vh;
-    padding: 150px 18px 70px;
+    min-height: 52vh;
+    padding: 95px 18px 55px;
   }
 
   .works {
@@ -229,8 +229,8 @@ footer {
   }
 
   .work:nth-child(2) {
-    width: 82%;
-    margin-left: auto !important;
+    width: 92%;
+    margin-left: 0 !important;
   }
 
   .work:nth-child(3) {
