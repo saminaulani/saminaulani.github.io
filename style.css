@@ -506,3 +506,23 @@ footer {
   }
 
 }
+/* VERTICAL ARTWORK SIZE — DESKTOP ONLY */
+@media (min-width: 701px) {
+
+  .work:nth-child(2),
+  .work:nth-child(4),
+  .work:nth-child(5) {
+    width: auto;
+  }
+
+  .work:nth-child(2) img,
+  .work:nth-child(4) img,
+  .work:nth-child(5) img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 78vh;
+    margin: 0 auto;
+  }
+
+}
