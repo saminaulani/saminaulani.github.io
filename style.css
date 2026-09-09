@@ -526,3 +526,31 @@ footer {
   }
 
 }
+/* ARTWORK SIZE — DESKTOP ONLY */
+@media (min-width: 701px) {
+
+  .work {
+    width: auto;
+    max-width: 900px;
+  }
+
+  .work figure {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .work img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 72vh;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    width: 100%;
+  }
+
+}
