@@ -282,19 +282,27 @@ footer {
   }
 }
 
-/* New paintings, displayed first in a centered single-column sequence. */
+/* The four newest paintings form two balanced pairs on desktop. */
 .work-new-portrait,
+.work-new-companion,
 .work-new-square,
 .work-new-narrow {
-  grid-column: 1 / 13;
-  margin: 0 auto;
   width: 100%;
+  margin: 0;
+  min-width: 0;
 }
-.work-new-portrait { max-width: 670px; }
-.work-new-square { max-width: 820px; }
-.work-new-narrow { max-width: 470px; }
+.work-new-portrait { grid-column: 2 / 7; }
+.work-new-companion { grid-column: 8 / 13; }
+.work-new-square { grid-column: 2 / 7; }
+.work-new-narrow { grid-column: 8 / 12; max-width: 360px; }
+
 @media (max-width: 700px) {
   .work-new-portrait,
+  .work-new-companion,
   .work-new-square,
-  .work-new-narrow { max-width: 100%; }
+  .work-new-narrow {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 22vw !important;
+  }
 }
