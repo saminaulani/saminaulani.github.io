@@ -58,3 +58,33 @@ footer { width: 86vw; margin: 0 auto; padding: 22px 0 28px; border-top: 1px soli
   .contact { width: calc(100% - 36px); margin-top: 25vw; padding: 18vw 0 22vw; }
   footer { width: calc(100% - 36px); gap: 20px; }
 }
+
+/* FINAL SPACING ADJUSTMENTS */
+
+/* Move the headline higher and reduce space before artworks */
+.intro {
+  min-height: 48vh !important;
+  padding-top: 110px !important;
+  padding-bottom: 55px !important;
+}
+
+/* Bring the biography closer to the final artwork */
+.about {
+  margin-top: 8vw !important;
+  padding-top: 6vw !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 700px) {
+  .intro {
+    min-height: 42vh !important;
+    padding-top: 100px !important;
+    padding-bottom: 45px !important;
+  }
+
+  .about {
+    margin-top: 12vw !important;
+    padding-top: 10vw !important;
+  }
+}
+
