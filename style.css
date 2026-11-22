@@ -88,3 +88,38 @@ footer { width: 86vw; margin: 0 auto; padding: 22px 0 28px; border-top: 1px soli
   }
 }
 
+/* INTRO TITLE AND SUBTITLE */
+
+.intro h1 {
+  font-size: clamp(48px, 6vw, 96px);
+  line-height: 1;
+  letter-spacing: -0.045em;
+}
+
+.intro-subtitle {
+  margin: 16px 0 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(17px, 2vw, 26px);
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  color: #a7a49d;
+}
+
+/* MOBILE INTRO SPACING */
+
+@media (max-width: 700px) {
+  .intro {
+    min-height: 0 !important;
+    padding: 105px 18px 45px !important;
+  }
+
+  .intro h1 {
+    font-size: clamp(44px, 10vw, 64px);
+  }
+
+  .intro-subtitle {
+    margin-top: 10px;
+    font-size: 17px;
+  }
+}
+
