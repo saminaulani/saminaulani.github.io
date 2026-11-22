@@ -133,3 +133,19 @@ footer { width: 86vw; margin: 0 auto; padding: 22px 0 28px; border-top: 1px soli
   }
 }
 
+
+/* Reduce header-to-intro spacing on desktop */
+.intro {
+  min-height: 0 !important;
+  padding-top: 75px !important;
+  padding-bottom: 45px !important;
+}
+
+/* Reduce spacing further on mobile */
+@media (max-width: 700px) {
+  .intro {
+    min-height: 0 !important;
+    padding-top: 65px !important;
+    padding-bottom: 35px !important;
+  }
+}
