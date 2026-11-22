@@ -149,3 +149,21 @@ footer { width: 86vw; margin: 0 auto; padding: 22px 0 28px; border-top: 1px soli
     padding-bottom: 40px !important;
   }
 }
+
+/* The Sacred and the Profane — desktop */
+@media (min-width: 701px) {
+  .work-sacred-profane {
+    grid-column: 2 / 6;
+    grid-row: 6;
+    width: 75%;
+    justify-self: center;
+  }
+}
+
+/* Mobile — maintain the existing single-column flow */
+@media (max-width: 700px) {
+  .work-sacred-profane {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
